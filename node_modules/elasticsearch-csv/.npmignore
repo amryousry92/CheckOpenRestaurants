@@ -1,0 +1,12 @@
+node_modules
+.tmp
+*.orig
+**/*.log
+npm-debug.log
+**/.idea
+*~
+*.swp
+.settings
+coverage/
+reports/
+desktop.ini

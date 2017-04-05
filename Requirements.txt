@@ -1,0 +1,9 @@
+Overview:
+
+Attached is a JSON file with a list of 500 restaurants. Your task is to develop an API to search for the currently opened restaurants and to return a list of it. Each restaurant has an opening and closing hours. So user can request the currently opened restaurant at any time of the day.
+
+Features:
+
+    - For the API use Nodejs and Express framework.
+    - For the Data Store its preferred  to use ElasticSearch for indexing and searching for data and the data returned should be paged.
+    - Use any version you feel comfortable with.

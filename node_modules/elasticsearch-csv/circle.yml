@@ -1,0 +1,18 @@
+general:
+    artifacts:
+        - "reports"
+
+machine:
+    node:
+        version: 0.12.9
+
+dependencies:
+    pre:
+        - npm install -g grunt-cli
+
+test:
+    override:
+        - grunt circle
+    post:
+        - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+        - find . -type f -regex ".*/reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;

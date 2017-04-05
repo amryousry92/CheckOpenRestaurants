@@ -1,0 +1,5 @@
+-run elasticsearch v 2.4.2
+-create index "restaurants".
+-run "node app.js" to start the project
+-"/readFile" reads the file then saves its data to elasticsearch
+-"/getOpen" checks the current time then retrieves a list of open restaurants
